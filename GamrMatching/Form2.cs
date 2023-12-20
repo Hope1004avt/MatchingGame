@@ -12,6 +12,9 @@ namespace GamrMatching
 {
     public partial class Form2 : Form
     {
+        public delegate void ValueChangedEventHandler(string value);
+        public event ValueChangedEventHandler ValueChanged;
+
 
         Random random = new Random();
 
@@ -21,7 +24,7 @@ namespace GamrMatching
             "a", "a", "b", "b", "c", "c", "d", "d", "g", "g", "^", "^", "h", "h", "i", "i"
         };
 
-        int Count = 0;
+        public int count = 0;
 
         // Метка укаывающая на первое нажатие
         Label firstClicked = null;
@@ -39,14 +42,14 @@ namespace GamrMatching
         // Увеличение счетчика ходов и обновление метки в форме
         private void IncrementMovesCount()
         {
-            Count++;
-            lCount.Text = Count.ToString();
+            count++;
+            lCount.Text = count.ToString();
         }
 
         // Обработчик клика по иконке
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
             if (timer1.Enabled == true)
             {
                 return;
@@ -55,8 +58,8 @@ namespace GamrMatching
             Label clickedLabel = sender as Label;
             if (clickedLabel != null)
             {
-                
-                if(clickedLabel.ForeColor == Color.FromArgb(128, 128, 255))
+
+                if (clickedLabel.ForeColor == Color.FromArgb(128, 128, 255))
                 {
                     return;
                 }
@@ -99,8 +102,8 @@ namespace GamrMatching
                     }
                 }
             }
-                MessageBox.Show("You win!!! Count: " + Count);
-                Close();
+            MessageBox.Show("You win!!!");
+            Close();
         }
 
         // Назначение каждому квадрату случайный элемент из списка 
@@ -174,7 +177,7 @@ namespace GamrMatching
                     }
 
                 }));
-                
+
             }
             string Result = tbTime.Text;
             int minut = m;

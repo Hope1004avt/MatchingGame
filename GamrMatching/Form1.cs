@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace GamrMatching
 {
+
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -19,8 +21,22 @@ namespace GamrMatching
 
         private void bEasy_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
+            if (tbName.Text != "")
+            {
+                Form2 f2 = new Form2();
+                f2.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Enter the player's name");
+            }
+            
+        }
+
+        private void bRanking_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3(tbName.Text);
+            f3.ShowDialog();
         }
     }
 }
