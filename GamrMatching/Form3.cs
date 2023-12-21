@@ -10,13 +10,15 @@ using System.Windows.Forms;
 
 namespace GamrMatching
 {
+
     public partial class Form3 : Form
     {
+
         private string playerName;
 
         public Form3(string playerName)
         {
-            InitializeComponent();
+            InitializeComponent();            
             this.playerName = playerName;
         }
 
