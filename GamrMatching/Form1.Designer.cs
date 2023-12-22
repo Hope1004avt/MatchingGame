@@ -35,6 +35,8 @@
             this.bEasy = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bRanking = new System.Windows.Forms.Button();
+            this.bMiddle = new System.Windows.Forms.Button();
+            this.bHard = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,6 +91,8 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.bHard);
+            this.panel1.Controls.Add(this.bMiddle);
             this.panel1.Controls.Add(this.bEasy);
             this.panel1.Location = new System.Drawing.Point(32, 180);
             this.panel1.Name = "panel1";
@@ -105,6 +109,28 @@
             this.bRanking.Text = "Ranking";
             this.bRanking.UseVisualStyleBackColor = true;
             this.bRanking.Click += new System.EventHandler(this.bRanking_Click);
+            // 
+            // bMiddle
+            // 
+            this.bMiddle.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bMiddle.Location = new System.Drawing.Point(0, 56);
+            this.bMiddle.Name = "bMiddle";
+            this.bMiddle.Size = new System.Drawing.Size(154, 36);
+            this.bMiddle.TabIndex = 1;
+            this.bMiddle.Text = "Middle";
+            this.bMiddle.UseVisualStyleBackColor = true;
+            this.bMiddle.Click += new System.EventHandler(this.bMiddle_Click);
+            // 
+            // bHard
+            // 
+            this.bHard.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bHard.Location = new System.Drawing.Point(0, 98);
+            this.bHard.Name = "bHard";
+            this.bHard.Size = new System.Drawing.Size(154, 36);
+            this.bHard.TabIndex = 2;
+            this.bHard.Text = "Hard";
+            this.bHard.UseVisualStyleBackColor = true;
+            this.bHard.Click += new System.EventHandler(this.bHard_Click);
             // 
             // Form1
             // 
@@ -134,6 +160,8 @@
         private System.Windows.Forms.Button bEasy;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button bRanking;
+        private System.Windows.Forms.Button bHard;
+        private System.Windows.Forms.Button bMiddle;
     }
 }
 

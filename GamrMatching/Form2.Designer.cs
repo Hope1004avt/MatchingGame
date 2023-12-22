@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tlpMiddle = new System.Windows.Forms.TableLayoutPanel();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -50,43 +50,43 @@
             this.label17 = new System.Windows.Forms.Label();
             this.tbTime = new System.Windows.Forms.TextBox();
             this.lCount = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.tlpMiddle.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel1
+            // tlpMiddle
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Plum;
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.label16, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label15, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label14, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label13, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label12, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label11, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label10, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label9, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label8, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(430, 377);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.tlpMiddle.BackColor = System.Drawing.Color.Plum;
+            this.tlpMiddle.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
+            this.tlpMiddle.ColumnCount = 4;
+            this.tlpMiddle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.Controls.Add(this.label16, 3, 3);
+            this.tlpMiddle.Controls.Add(this.label15, 2, 3);
+            this.tlpMiddle.Controls.Add(this.label14, 1, 3);
+            this.tlpMiddle.Controls.Add(this.label13, 0, 3);
+            this.tlpMiddle.Controls.Add(this.label12, 3, 2);
+            this.tlpMiddle.Controls.Add(this.label11, 2, 2);
+            this.tlpMiddle.Controls.Add(this.label10, 1, 2);
+            this.tlpMiddle.Controls.Add(this.label9, 0, 2);
+            this.tlpMiddle.Controls.Add(this.label8, 3, 1);
+            this.tlpMiddle.Controls.Add(this.label7, 2, 1);
+            this.tlpMiddle.Controls.Add(this.label6, 1, 1);
+            this.tlpMiddle.Controls.Add(this.label5, 0, 1);
+            this.tlpMiddle.Controls.Add(this.label4, 3, 0);
+            this.tlpMiddle.Controls.Add(this.label3, 2, 0);
+            this.tlpMiddle.Controls.Add(this.label2, 1, 0);
+            this.tlpMiddle.Controls.Add(this.label1, 0, 0);
+            this.tlpMiddle.Location = new System.Drawing.Point(0, 0);
+            this.tlpMiddle.Name = "tlpMiddle";
+            this.tlpMiddle.RowCount = 4;
+            this.tlpMiddle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tlpMiddle.Size = new System.Drawing.Size(430, 377);
+            this.tlpMiddle.TabIndex = 0;
             // 
             // label16
             // 
@@ -335,19 +335,19 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(589, 377);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(599, 379);
             this.Controls.Add(this.lCount);
             this.Controls.Add(this.tbTime);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.tlpMiddle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
             this.Text = "Form2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.Load += new System.EventHandler(this.Form2_Load);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.tlpMiddle.ResumeLayout(false);
+            this.tlpMiddle.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,7 +355,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tlpMiddle;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
